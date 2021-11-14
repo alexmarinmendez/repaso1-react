@@ -4,9 +4,11 @@
   "description": "This is a simple project for my React Classes on Coder House",
   "author": "Alex Marin Mendez",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3"
   },
   "scripts": {
     "start": "react-scripts start"
