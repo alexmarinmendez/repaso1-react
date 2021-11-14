@@ -1,5 +1,5 @@
-import { AppBar, Badge } from "@material-ui/core";
-import { ShoppingCartOutlined } from "@material-ui/icons";
+import { AppBar } from "@material-ui/core";
+import CartWidget from "./CartWidget";
 import { Wrapper, Logo, MenuItem, Left, Center, Right } from './styledComponents';
 
 const NavBar = () => {
@@ -18,11 +18,7 @@ const NavBar = () => {
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
                     <MenuItem>SIGN IN</MenuItem>
-                    <MenuItem>
-                        <Badge badgeContent={4} color="secondary">
-                            <ShoppingCartOutlined />
-                        </Badge>
-                    </MenuItem>
+                    <MenuItem><CartWidget /></MenuItem>
                 </Right>
             </Wrapper>
         </AppBar>
