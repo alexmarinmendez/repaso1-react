@@ -21,7 +21,7 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
-font-weight: bold;
+    font-weight: bold;
 `;
 
 const Right = styled.div`
@@ -37,4 +37,17 @@ const MenuItem = styled.div`
     margin-left: 25px;
 `;
 
-export { Wrapper, Logo, MenuItem, Left, Center, Right }
+
+//dasd
+const ProductAmountContainer = styled.div`
+    display: flex;
+    align-items: center;
+    margin: 20px;
+`;
+
+const ProductAmount = styled.div`
+    font-size: 24px;
+    margin: 5px;
+`;
+
+export { Wrapper, Logo, MenuItem, Left, Center, Right, ProductAmountContainer, ProductAmount }
