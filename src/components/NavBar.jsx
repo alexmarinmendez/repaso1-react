@@ -1,4 +1,5 @@
 import { AppBar } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import { Wrapper, Logo, MenuItem, Left, Center, Right } from './styledComponents';
 
@@ -7,13 +8,12 @@ const NavBar = () => {
         <AppBar position="relative">
             <Wrapper>
                 <Left>
-                    <Logo>COD.ER $HO.P</Logo>
+                    <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>COD.ER $HO.P</Logo></Link>
                 </Left>
                 <Center>
-                    <MenuItem>CATEGORÍA 1</MenuItem>
-                    <MenuItem>CATEGORÍA 2</MenuItem>
-                    <MenuItem>CATEGORÍA 3</MenuItem>                    
-                    <MenuItem>CATEGORÍA 4</MenuItem>                    
+                    <Link to='/category/9' style={{textDecoration: "none", color: "white"}}><MenuItem>Sin Alcohol</MenuItem></Link>
+                    <Link to='/category/1' style={{textDecoration: "none", color: "white"}}><MenuItem>Vinos</MenuItem></Link>
+                    <Link to='/category/5' style={{textDecoration: "none", color: "white"}}><MenuItem>Licores</MenuItem></Link>                    
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
