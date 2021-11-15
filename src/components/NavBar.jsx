@@ -4,7 +4,7 @@ import { Wrapper, Logo, MenuItem, Left, Center, Right } from './styledComponents
 
 const NavBar = () => {
     return (
-        <AppBar position="fixed">
+        <AppBar position="relative">
             <Wrapper>
                 <Left>
                     <Logo>COD.ER $HO.P</Logo>
