@@ -4,7 +4,7 @@ import { Wrapper } from './styledComponents';
 const ItemListContainer = ({greeting}) => {
 
     const onAdd = (qty) => {
-        alert("You have selected " + qty);
+        alert("You have selected " + qty + " items.");
     }
 
     return (
