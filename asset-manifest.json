@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/repaso1-react/static/js/main.7b0dd94f.chunk.js",
+    "main.js.map": "/repaso1-react/static/js/main.7b0dd94f.chunk.js.map",
+    "runtime-main.js": "/repaso1-react/static/js/runtime-main.a830b84b.js",
+    "runtime-main.js.map": "/repaso1-react/static/js/runtime-main.a830b84b.js.map",
+    "static/js/2.0f506427.chunk.js": "/repaso1-react/static/js/2.0f506427.chunk.js",
+    "static/js/2.0f506427.chunk.js.map": "/repaso1-react/static/js/2.0f506427.chunk.js.map",
+    "index.html": "/repaso1-react/index.html",
+    "static/js/2.0f506427.chunk.js.LICENSE.txt": "/repaso1-react/static/js/2.0f506427.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a830b84b.js",
+    "static/js/2.0f506427.chunk.js",
+    "static/js/main.7b0dd94f.chunk.js"
+  ]
+}
